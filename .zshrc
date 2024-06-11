@@ -38,6 +38,12 @@ zinit cdreplay -q
 # Source p10k
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Keybinds
+bindkey -e
+bindkey '^[[A' history-search-backward
+bindkey '^[[B' history-search-forward
+bindkey '^[w' kill-region
+
 # History
 HISTSIZE=10000
 HISTFILE=~/.zsh_history
