@@ -45,6 +45,7 @@ bindkey -e
 bindkey '^[[A' history-beginning-search-backward
 bindkey '^[[B' history-beginning-search-forward
 bindkey '^[w' kill-region
+bindkey '\e[3~' delete-char
 
 # History
 HISTSIZE=10000
