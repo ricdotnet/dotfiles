@@ -40,8 +40,10 @@ zinit cdreplay -q
 
 # Keybinds
 bindkey -e
-bindkey '^[[A' history-search-backward
-bindkey '^[[B' history-search-forward
+#bindkey '^[[A' history-search-backward
+#bindkey '^[[B' history-search-forward
+bindkey '^[[A' history-beginning-search-backward
+bindkey '^[[B' history-beginning-search-forward
 bindkey '^[w' kill-region
 
 # History
