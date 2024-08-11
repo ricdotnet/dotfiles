@@ -1,6 +1,45 @@
 #import = ["~/.config/alacritty/catppuccin-mocha.toml"]
 live_config_reload = true
 
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[[colors.indexed_colors]]
+color = "0xF8BD96"
+index = 16
+
+[[colors.indexed_colors]]
+color = "0xF5E0DC"
+index = 17
+
+[colors.bright]
+black = "0x988BA2"
+blue = "0x96CDFB"
+cyan = "0x89DCEB"
+green = "0xABE9B3"
+magenta = "0xF5C2E7"
+red = "0xF28FAD"
+white = "0xD9E0EE"
+yellow = "0xFAE3B0"
+
+[colors.cursor]
+cursor = "0xF5E0DC"
+text = "0x1E1D2F"
+
+[colors.normal]
+black = "0x6E6C7E"
+blue = "0x96CDFB"
+cyan = "0x89DCEB"
+green = "0xABE9B3"
+magenta = "0xF5C2E7"
+red = "0xF28FAD"
+white = "0xD9E0EE"
+yellow = "0xFAE3B0"
+
+[colors.primary]
+background = "0x1E1D2F"
+foreground = "0xD9E0EE"
+
 [cursor]
 unfocused_hollow = true
 
@@ -64,31 +103,3 @@ y = 3
 [window.position]
 x = 500
 y = 100
-
-# [colors.bright]
-# black = "0x665c54"
-# blue = "0xbdae93"
-# cyan = "0xd65d0e"
-# green = "0x3c3836"
-# magenta = "0xebdbb2"
-# red = "0xfe8019"
-# white = "0xfbf1c7"
-# yellow = "0x504945"
-#
-# [colors.cursor]
-# cursor = "0xd5c4a1"
-# text = "0x1d2021"
-#
-# [colors.normal]
-# black = "0x1d2021"
-# blue = "0x83a598"
-# cyan = "0x8ec07c"
-# green = "0xb8bb26"
-# magenta = "0xd3869b"
-# red = "0xfb4934"
-# white = "0xd5c4a1"
-# yellow = "0xfabd2f"
-#
-# [colors.primary]
-# background = "0x1d2021"
-# foreground = "0xd5c4a1"
