@@ -4,3 +4,12 @@
     left: 50% !important;
     transform: translateY(-50%);
 }
+  
+.titlebar-center {
+    display: none !important;
+}
+  
+.quick-input-filter .monaco-inputbox {
+    padding-block: 10px !important;
+    padding-inline: 20px !important;
+}

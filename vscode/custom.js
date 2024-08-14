@@ -16,7 +16,7 @@ window.addEventListener('keydown', (e) => {
           console.log('Cleared overlay timer:', timer);
         }
       }, 100);
-    }, 100);
+    }, 50);
   }
 });
 
