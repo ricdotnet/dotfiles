@@ -46,6 +46,8 @@ bindkey '^[[A' history-beginning-search-backward
 bindkey '^[[B' history-beginning-search-forward
 bindkey '^[w' kill-region
 bindkey '\e[3~' delete-char
+bindkey '^[[1;3C' forward-word
+bindkey '^[[1;3D' backward-word
 
 # History
 HISTSIZE=10000
