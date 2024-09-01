@@ -7,7 +7,7 @@ fi
 
 # Initial user configs
 export CONFIG="$HOME/.config"
-source "$CONFIG/zsh/aliases.zsh"
+source "$CONFIG/zsh/extend.zsh"
 
 # Check for zinit dir... if not there, clone and create
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
