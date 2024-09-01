@@ -3,7 +3,7 @@ local wezterm = require('wezterm')
 local config = wezterm.config_builder()
 
 -- window
-config.color_scheme = 'Catppuccin Mocha'
+config.color_scheme = 'Tokyo Night (Gogh)'
 
 config.initial_cols = 150
 config.initial_rows = 35
