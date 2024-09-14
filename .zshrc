@@ -21,7 +21,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # Zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
-# zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 
 # OhMyZsh plugins
@@ -48,6 +48,10 @@ bindkey '^[w' kill-region
 bindkey '\e[3~' delete-char
 bindkey '^[[1;3C' forward-word
 bindkey '^[[1;3D' backward-word
+
+# I noticed that wsl ubuntu uses different mappings for calling zsh widgets?
+# bindkey '^[OA' history-beginning-search-backward
+# bindkey '^[OB' history-beginning-search-forward
 
 # History
 HISTSIZE=10000
