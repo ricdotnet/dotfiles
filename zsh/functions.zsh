@@ -29,3 +29,7 @@ function savecb() {
   echo "Saving clipboard content into $1"
   pbpaste >> $1
 }
+
+function localip() {
+  ip route | grep default | awk '{print $3}'
+}
