@@ -28,4 +28,10 @@ config.line_height = 1.2
 config.window_frame = {}
 config.colors = require('colors')
 
+-- others
+config.keys = {
+  { key = "LeftArrow", mods = "OPT", action = wezterm.action{ SendString = "\x1bb" } },
+  { key = "RightArrow", mods = "OPT", action = wezterm.action{ SendString = "\x1bf" } },
+}
+
 return config
