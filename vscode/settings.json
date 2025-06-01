@@ -1,0 +1,94 @@
+{
+  // editor styling
+  "editor.tabSize": 2,
+  "editor.fontSize": 17,
+  "editor.lineHeight": 2,
+  "editor.lineNumbers": "relative",
+  "editor.fontFamily": "MonoLisa",
+  "editor.fontLigatures": "'liga' on, 'ss02' on",
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "variable.language",
+          "meta.function-call",
+          "entity.name.type"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // code formatters
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+
+  // others
+  "terminal.integrated.fontFamily": "monospace",
+  "markdown.preview.lineHeight": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [],
+  "prettier.singleQuote": true,
+  "git.autofetch": true,
+  "git.suggestSmartCommit": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "ava.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home",
+  "terminal.integrated.fontSize": 14,
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "iTerm.app",
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.minimap.maxColumn": 100,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "debug.inlineValues": "on",
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "go.toolsManagement.autoUpdate": true,
+  "vue.format.script.initialIndent": true,
+  "vue.format.style.initialIndent": true,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.iconTheme": "icons",
+  "workbench.view.showQuietly": {
+    "workbench.panel.output": false
+  },
+}
