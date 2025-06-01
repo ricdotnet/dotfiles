@@ -2,9 +2,8 @@
   // editor styling
   "editor.tabSize": 2,
   "editor.fontSize": 17,
-  "editor.lineHeight": 2,
-  "editor.lineNumbers": "relative",
-  "editor.fontFamily": "MonoLisa",
+  "editor.lineHeight": 2.3,
+  "editor.fontFamily": "MonoLisa, Fira Code, monospace",
   "editor.fontLigatures": "'liga' on, 'ss02' on",
   "editor.wordWrapColumn": 120,
   "editor.wordWrap": "on",
@@ -48,7 +47,6 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
 
   // others
   "terminal.integrated.fontFamily": "monospace",
