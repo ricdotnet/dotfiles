@@ -1,5 +1,5 @@
 {
-  // editor styling
+  // Editor styling
   "editor.tabSize": 2,
   "editor.fontSize": 17,
   "editor.lineHeight": 2.3,
@@ -7,6 +7,7 @@
   "editor.fontLigatures": "'liga' on, 'ss02' on",
   "editor.wordWrapColumn": 120,
   "editor.wordWrap": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -24,7 +25,17 @@
     ]
   },
 
-  // code formatters
+  // Workbench
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "welcomePage",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.iconTheme": "icons",
+  // don't know what this is ????
+  "workbench.view.showQuietly": {
+    "workbench.panel.output": true
+  },
+
+  // Code Formatters
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -48,7 +59,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  // others
+  // Others
   "terminal.integrated.fontFamily": "monospace",
   "markdown.preview.lineHeight": 2,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -71,7 +82,6 @@
   "terminal.external.osxExec": "iTerm.app",
   "editor.detectIndentation": false,
   "editor.minimap.enabled": false,
-  "workbench.startupEditor": "none",
   "editor.minimap.maxColumn": 100,
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
@@ -84,9 +94,5 @@
   "go.toolsManagement.autoUpdate": true,
   "vue.format.script.initialIndent": true,
   "vue.format.style.initialIndent": true,
-  "workbench.colorTheme": "Gruvbox Dark Hard",
-  "workbench.iconTheme": "icons",
-  "workbench.view.showQuietly": {
-    "workbench.panel.output": false
-  },
+
 }
