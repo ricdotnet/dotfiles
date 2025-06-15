@@ -1,13 +1,47 @@
 {
-  // Editor styling
-  "editor.tabSize": 2,
-  "editor.fontSize": 17,
-  "editor.lineHeight": 2.3,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "ava.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home",
+  "database-client.autoSync": true,
+  "debug.inlineValues": "on",
+  "editor.codeActionsOnSave": [
+    "source.formatDocument",
+    "source.fixAll"
+  ],
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.detectIndentation": false,
   "editor.fontFamily": "MonoLisa, Fira Code, monospace",
   "editor.fontLigatures": "'liga' on, 'ss02' on",
-  "editor.wordWrapColumn": 120,
-  "editor.wordWrap": "on",
-  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontSize": 17,
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 2.3,
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 100,
+  "editor.rulers": [],
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -24,75 +58,37 @@
       }
     ]
   },
-
-  // Workbench
-  "workbench.activityBar.location": "top",
-  "workbench.startupEditor": "welcomePage",
-  "workbench.colorTheme": "Gruvbox Dark Hard",
-  "workbench.iconTheme": "icons",
-  // don't know what this is ????
-  "workbench.view.showQuietly": {
-    "workbench.panel.output": true
-  },
-
-  // Code Formatters
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  // Others
-  "terminal.integrated.fontFamily": "monospace",
-  "markdown.preview.lineHeight": 2,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.rulers": [],
-  "prettier.singleQuote": true,
-  "git.autofetch": true,
-  "git.suggestSmartCommit": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "ava.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home",
-  "terminal.integrated.fontSize": 14,
-  "terminal.explorerKind": "external",
-  "terminal.external.osxExec": "iTerm.app",
-  "editor.detectIndentation": false,
-  "editor.minimap.enabled": false,
-  "editor.minimap.maxColumn": 100,
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "debug.inlineValues": "on",
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 120,
   "files.associations": {
     "*.vue": "vue"
   },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "git.autofetch": true,
   "git.openRepositoryInParentFolders": "always",
+  "git.suggestSmartCommit": false,
+  "gitlens.hovers.currentLine.over": "line",
   "go.toolsManagement.autoUpdate": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "markdown.preview.lineHeight": 2,
+  "prettier.singleQuote": true,
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 14,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "vue.format.script.initialIndent": true,
   "vue.format.style.initialIndent": true,
-
+  "workbench.activityBar.location": "top",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.iconTheme": "icons",
+  "workbench.startupEditor": "welcomePage",
+  "workbench.view.showQuietly": {
+    "workbench.panel.output": true
+  }
 }
