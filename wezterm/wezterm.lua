@@ -7,6 +7,9 @@ end)
 
 local config = wezterm.config_builder()
 
+-- uncomment for auto-load wsl
+-- config.default_prog = { "wsl", "-d", "Ubuntu", "--cd", "~" }
+
 -- window
 config.color_scheme = "Kanagawa Dragon (Gogh)" -- needs nightly build
 
@@ -20,17 +23,27 @@ config.window_padding = {
 	bottom = 0,
 }
 
-config.window_background_opacity = 0.8
+-- uncomment for macos
+-- config.window_background_opacity = 0.8
 -- config.macos_window_background_blur = 20 -- uncomment for macos
+
+-- uncomment for windows
+-- config.window_background_opacity = 0.5
+-- config.win32_system_backdrop = "Tabbed"
 
 -- tabs
 config.hide_tab_bar_if_only_one_tab = true
 config.use_fancy_tab_bar = false
 
--- font config
-config.font = wezterm.font("JetbrainsMono Nerd Font")
-config.font_size = 16
-config.line_height = 1.4
+-- font config macos
+-- config.font = wezterm.font("JetbrainsMono Nerd Font")
+-- config.font_size = 16
+-- config.line_height = 1.4
+
+-- font config windows
+-- config.font = wezterm.font("JetBrainsMono NF")
+-- config.font_size = 12
+-- config.line_height = 1.2
 
 -- colors
 config.window_frame = {}
