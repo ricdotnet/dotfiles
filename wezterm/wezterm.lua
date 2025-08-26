@@ -1,7 +1,7 @@
 local wezterm = require("wezterm")
 
 wezterm.on("gui-startup", function()
-  local tab, pane, window = wezterm.mux.spawn_window{}
+  local _, _, window = wezterm.mux.spawn_window{}
   window:gui_window():maximize()
 end)
 
@@ -24,7 +24,7 @@ config.window_padding = {
 }
 
 -- uncomment for macos
--- config.window_background_opacity = 0.8
+-- config.window_background_opacity = 0.85
 -- config.macos_window_background_blur = 20 -- uncomment for macos
 
 -- uncomment for windows
