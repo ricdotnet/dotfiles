@@ -42,24 +42,9 @@
   "editor.rulers": [],
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "comment",
-          "keyword",
-          "variable.language",
-          "meta.function-call",
-          "entity.name.type"
-        ],
-        "settings": {
-          "fontStyle": "italic"
-        }
-      }
-    ]
-  },
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 120,
+  "editor.semanticHighlighting.enabled": true,
   "files.associations": {
     "*.vue": "vue"
   },
